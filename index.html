@@ -39,11 +39,11 @@
             <div class="h6 nomargin col-4 d-flex align-items-center" title="How technically skilled is this group of threat agents?">Skill level</div>
             <div class="col-8">
               <select class="form-control" id="sl" name="sl" onchange="calculate()">
-                <option value="1">Security penetration skills (1)</option>
-                <option value="3">Network and programming skills (3)</option>
+                <option value="1">No technical skills (1)</option>
+                <option value="3">Some technical skills (3)</option>
                 <option value="5">Advanced computer user (5)</option>
-                <option value="6">Some technical skills (6)</option>
-                <option value="9">No technical skills (9)</option>
+                <option value="6">Network and programming skills (6)</option>
+                <option value="9">Security penetration skills (9)</option>
               </select>
             </div>
           </div>
@@ -176,12 +176,10 @@
             <div class="h6 nomargin col-4 d-flex align-items-center" title="How likely is an exploit to be detected?">Intrusion detection</div>
             <div class="col-8">
               <select class="form-control" aria-label=".form-select-sm example" id="id" name="id" onchange="calculate()">
-                <option value="2">Developers (2)</option>
-                <option value="2">System administrators (2)</option>
-                <option value="4">Intranet users (4)</option>
-                <option value="5">Partners (5)</option>
-                <option value="6">Authenticated users (6)</option>
-                <option value="9">Anonymous Internet users (9)</option>
+                <option value="1">Active detection in application (1)</option>
+                <option value="3">Logged and reviewed (3)</option>
+                <option value="8">Logged without review (8)</option>
+                <option value="9">Not logged (9)</option>
               </select>
             </div>
           </div>
@@ -219,7 +217,6 @@
                 <option value="2">Minor violation (2)</option>
                 <option value="5">Clear violation (5)</option>
                 <option value="7">High profile violation (7)</option>
-                <option value="9">Total violation (9)</option>
               </select>
             </div>
           </div>
