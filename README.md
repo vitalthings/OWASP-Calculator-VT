@@ -3,7 +3,7 @@
 
   <h4>🧮 An online calculator to assess the risk of web vulnerabilities based on OWASP Risk Assessment.</h4>
 
-<a align="center" href="https://vitalthings.github.io/OWASP-Calculator/" target="_blank">GO TO ONLINE CALCULATOR</a>
+<a align="center" href="https://vitalthings.github.io/OWASP-Calculator-VT/" target="_blank">GO TO ONLINE CALCULATOR</a>
 
 ![](https://raw.githubusercontent.com/JavierOlmedo/OWASP-Calculator/master/img/orac.gif)
 
